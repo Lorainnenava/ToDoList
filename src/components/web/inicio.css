@@ -1,0 +1,156 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.container-header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  color:rgb(58, 57, 57);
+  border-bottom: 2px solid rgba(129, 124, 124, 0.397);
+}
+.container-logo {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.botones {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  margin-right: 190px;
+}
+.btn-registro{
+  text-decoration: none;
+  margin-bottom:30px;
+  background-color: #eceeec;
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+}
+
+.img-logo {
+  width: 150px;
+  margin-left: 300px;
+}
+/*-------------------------PORTADA---------------------------------------*/
+.portada {
+  width: 80%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #7c8bfb;
+  margin: auto;
+  border-radius:30px;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+.titulos {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1.titulo {
+  font-size: 120px;
+  font-family: "Kaushan Script", cursive;
+  color: white;
+}
+p {
+  font-size: 20px;
+}
+.imagen {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 62%;
+  height: 100%;
+}
+.info {
+  width: 80%;
+  height: 40%;
+  background-color:#dbebfc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 30px;
+  margin-bottom: 25px;
+}
+.imagen-info {
+  width: 55%;
+  height: 100%;
+  margin-bottom: 50px;
+}
+.imagen2 {
+  width: 55%;
+}
+.texto-info {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h4.acerca {
+  font-size: 30px;
+}
+h1.nosotros {
+  font-family: "Kaushan Script", cursive;
+  color: #7c8bfb;
+  font-size: 80px;
+}
+.nosotross {
+  width: 100%;
+  height: 50%;
+}
+.container-footer {
+  width: 80%;
+  height: 50%;
+  background-color:#7c8bfb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-radius:30px;
+}
+.infoMia{
+  width: 100%;
+  height: 50%;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.iconos{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:30px;
+  margin-bottom:20px
+}
+svg{
+  width: 100%;
+  height:25px;
+}
