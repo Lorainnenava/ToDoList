@@ -1,0 +1,43 @@
+###
+POST http://localhost:8015/tasks/list HTTP/1.1
+Content-type: application/json
+
+{
+    "tarea":"aprender moongo",
+    "descripcion":"aprender db",
+    "estado":true
+}
+
+###
+GET http://localhost:8015/tasks/list HTTP/1.1
+Content-type: application/json
+
+###
+PUT http://localhost:8015/tasks/list/63e412293f79b58210a4ccfe HTTP/1.1
+Content-Type: application/json
+
+{
+    "tarea":"aprender poo",
+    "descripcion":"aprender",
+    "estado":true
+}
+
+###
+DELETE http://localhost:8015/tasks/list/63e412293f79b58210a4ccfe HTTP/1.1
+
+
+###
+POST http://localhost:8015/users HTTP/1.1
+Content-type: application/json
+
+{
+    "usuario":"lorainne",
+    "contraseña":1234
+}
+
+###
+GET http://localhost:8015/users HTTP/1.1
+Content-type: application/json
+
+###
+DELETE http://localhost:8015/users/63ebed2eb230a7d4ff458ac5 HTTP/1.1
